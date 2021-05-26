@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alltodos</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"> 
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300,400,700" rel="stylesheet"> -->
+
+  <link rel="stylesheet" href="style.css">
+
+  
+  
+
+
+</head>
+
+<body >
+  
+<div class="container">
+    
+  <h1 style="color: White; text-align: center; margin-top: 20px; font-family: serif; font-weight: bolder;"><button type="button" class="btn btn-default btn-circle-sm"><i class="fa fa-check"></i>
+  </button> All Todos</h1>
+   <div>
+       <div class="mt-1 " style="text-align: right;">
+    <input type="submit" class="btn btn-primary btn-circle " style="font-weight: bolder; font-size: 40px; background-color: lightseagreen; padding-top: 2px;" data-toggle="modal" data-target="#myModal"
+    value="+">
+  </div>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content" style="background-color: rgb(166, 228, 207);">
+        <div class="modal-header">
+
+          <h4 class="modal-title" style="color:green; ">Add New ToDo</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <input type="text" class="form-control add-todo" placeholder="Add todo">
+
+          <div class="form-group mt-2">
+
+            <label for="id_pub_date">Deadline:</label>
+            <input type="date" id="date" style="border: 1px solid #d4d4d4; background-color: #f7f7f7;"
+              value="">
+
+            <input type="time" id="appt" name="appt">
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <a role="button" class="btn btn-success" href="#">Yes</a>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  
+
+  <div class="todos">
+     <div class="row mt-2"> 
+        <div class="col-md-6 mb-5">
+    <div class="card shadow-lg" style="width: 35rem; margin-top: 3rem; border-radius: .55rem; font-family: serif;  ">
+        <div class="card-body">
+            <div class="head">
+                <h5 class="card-title" style="font-weight: bolder; font-size: xx-large; color: lightseagreen;">Finishing the project <small style="color: red;">(important)</small></h5>
+                
+            </div>
+          
+          <h6 class="card-subtitle mb-2 text-muted">Deadline:</h6>
+          <p class="card-text" style="font-size: larger;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita dicta beatae aspernatur neque ipsam aut eaque excepturi illum maiores?</p>
+          <h6 class="card-subtitle mb-2 text-muted">Created at:</h6>
+          <h6 class="card-subtitle mb-2 text-muted">Updated at:</h6>
+         
+          <a class="btn btn-danger" href="#" role="button" style="float: right; ">Delete</a>
+          <a class="btn btn-success" href="#" role="button" style="float: right; margin-right: 10px;">Edit</a>
+        </div>
+      </div>
+
+      <div class="card shadow-lg" style="width: 35rem; margin-top: 3rem; border-radius: .55rem; font-family: serif;  ">
+        <div class="card-body">
+            <div class="head">
+                <h5 class="card-title" style="font-weight: bolder; font-size: xx-large; color: lightseagreen;">Finishing the project <small style="color: red;">(important)</small></h5>
+                
+            </div>
+          
+          <h6 class="card-subtitle mb-2 text-muted">Deadline:</h6>
+          <p class="card-text" style="font-size: larger;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita dicta beatae aspernatur neque ipsam aut eaque excepturi illum maiores?</p>
+          <h6 class="card-subtitle mb-2 text-muted">Created at:</h6>
+          <h6 class="card-subtitle mb-2 text-muted">Updated at:</h6>
+         
+          <a class="btn btn-danger" href="#" role="button" style="float: right; ">Delete</a>
+          <a class="btn btn-success" href="#" role="button" style="float: right; margin-right: 10px;">Edit</a>
+        </div>
+      </div>
+
+      <div class="card shadow-lg" style="width: 35rem; margin-top: 3rem; border-radius: .55rem; font-family: serif;  ">
+        <div class="card-body">
+            <div class="head">
+                <h5 class="card-title" style="font-weight: bolder; font-size: xx-large; color: lightseagreen;">Finishing the project <small style="color: red;">(important)</small></h5>
+                
+            </div>
+          
+          <h6 class="card-subtitle mb-2 text-muted">Deadline:</h6>
+          <p class="card-text" style="font-size: larger;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit expedita dicta beatae aspernatur neque ipsam aut eaque excepturi illum maiores?</p>
+          <h6 class="card-subtitle mb-2 text-muted">Created at:</h6>
+          <h6 class="card-subtitle mb-2 text-muted">Updated at:</h6>
+         
+          <a class="btn btn-danger" href="#" role="button" style="float: right; ">Delete</a>
+          <a class="btn btn-success" href="#" role="button" style="float: right; margin-right: 10px;">Edit</a>
+        </div>
+      </div>
+        </div>
+         <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <div class="card shadow-lg p-4 bg-white rounded" style="width: 30rem; margin-top: 3rem; border-radius: .55rem; font-family: serif;  ">
+              <h2  style="font-weight: bolder;  color: lightseagreen;">Already Done</h2>
+              <ul id="done-items" class="list-unstyled">
+    
+                <li><input type="checkbox" value="" checked style="float: left; margin-right: 10px;" />Some item <button
+                    class="remove-item btn btn-default btn-xs " style="float: right;"><i class="far fa-times-circle"></i>
+                  </button></li>
+                  <li><input type="checkbox" value="" checked style="float: left; margin-right: 10px;" />Some item <button
+                    class="remove-item btn btn-default btn-xs " style="float: right;"><i class="far fa-times-circle"></i>
+                  </button></li>
+                  <li><input type="checkbox" value="" checked style="float: left; margin-right: 10px;" />Some item <button
+                    class="remove-item btn btn-default btn-xs " style="float: right;"><i class="far fa-times-circle"></i>
+                  </button></li>
+                  <li><input type="checkbox" value="" checked style="float: left; margin-right: 10px;" />Some item <button
+                    class="remove-item btn btn-default btn-xs " style="float: right;"><i class="far fa-times-circle"></i>
+                  </button></li>
+                  <li><input type="checkbox" value="" checked style="float: left; margin-right: 10px;" />Some item <button
+                    class="remove-item btn btn-default btn-xs " style="float: right;"><i class="far fa-times-circle"></i>
+                  </button></li>
+                  <li><input type="checkbox" value="" checked style="float: left; margin-right: 10px;" />Some item <button
+                    class="remove-item btn btn-default btn-xs " style="float: right;"><i class="far fa-times-circle"></i>
+                  </button></li>
+                  <li><input type="checkbox" value="" checked style="float: left; margin-right: 10px;" />Some item <button
+                    class="remove-item btn btn-default btn-xs " style="float: right;"><i class="far fa-times-circle"></i>
+                  </button></li>
+    
+              </ul>
+            </div>
+          </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+  <!-- JS, Popper.js, and jQuery -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

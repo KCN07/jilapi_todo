@@ -100,19 +100,3 @@ input,label{
     display: block;
 }
 
-
-
-
-
-
-@media(max-width: 786px) {
-    #navbarNavAltMarkup{
-              
-    background-color: #343a40;
-    text-align: center;
-}
- .navbar-nav{
-    padding-top: 10px;
-    padding-bottom: 10px;
-} 
-}
