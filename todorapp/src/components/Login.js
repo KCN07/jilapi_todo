@@ -44,7 +44,7 @@ export default function Login(props){
             username: login.userName,
             password: login.password,
         };
-        axios.post(`/api/login/`, lguser )
+        axios.post(`http://localhost:8000/api/login/`, lguser )
           .then(res => {
             console.log(res.data.token);
             Cookies.set("token", res.data.token, {expires: 1/48})
